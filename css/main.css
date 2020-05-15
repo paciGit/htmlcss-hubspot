@@ -21,12 +21,6 @@
 
 /* first header */
 
-.secondheader::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .firstheader {
   background-color: #f5f8fa;
   border-bottom: 2px solid #cbd6e2;
@@ -193,12 +187,14 @@ nav select:hover, nav a:hover {
 /* Cover */
 
 .cover {
-  background-color: #fbe9ed;
+  background-color: #fff5ef;
   position: relative;
   background-image: url("../img/jumbotron.png");
   background-repeat: no-repeat;
-  background-position: top right;
+  background-position: top center;
   height: 694px;
+  /* height: 100%; */
+  /* width: 100%; */
 }
 
 .cover .container {
@@ -206,7 +202,7 @@ nav select:hover, nav a:hover {
 }
 
 .titlebox {
-  width: 35%;
+  width: 25%;
   position: absolute;
   top: 50px;
 }
@@ -245,14 +241,14 @@ h1 {
 /* Offers */
 
 .offers {
-  background-color: #eaf4f9;
+  background-color: #f5f8fa;
 }
 
 /* Cubo e testo */
 
 #cubo {
   text-align: center;
-  padding-top: 45px;
+  padding: 4% 0 7% 0;
   width: 60%;
   margin: 0 auto;
 }
@@ -271,6 +267,87 @@ h1 {
 }
 
 /* Learn more */
+
+.more {
+  width: 100%;
+  background: white;
+  height: 35vh;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 10%
+}
+
+.first.col {
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  text-align: center;
+  width: 35%;
+  padding-right: 5%;
+}
+
+.col img {
+  width: 100%;
+  height: 160px;
+  padding-bottom: 20px;
+}
+
+#learnmore a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  border: 1px solid #ff7a59;
+  background: #fe7a59;
+  padding: 10px 25px;
+  border-radius: 5px;
+  width: 40%;
+}
+
+.second.col {
+  position: absolute;
+  right: 5%;
+  top: 15%;
+  width: 60%;
+  padding-left: 5%;
+  list-style: none;
+}
+
+.col h3 {
+  font-size: 20px;
+  margin-bottom: 3%;
+}
+
+.col p {
+  line-height: 1.5;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+p.divisorio {
+  font-weight: 600;
+  margin: 3% 0;
+  position: relative;
+}
+
+.divisorio::after {
+  content: '';
+  position: absolute;
+  height: 8px;
+  margin-left: 45px;
+  border-bottom: 1px solid #afb2b5;
+  top: 4px;
+  width: 60%;
+}
+
+.second.col li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.second.col i {
+  color: #fe7a59;
+}
 
 /* Learn and grow */
 
