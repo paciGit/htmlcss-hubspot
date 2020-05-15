@@ -1,0 +1,301 @@
+/* Regole generali pagina */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* first header */
+
+.secondheader::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.firstheader {
+  background-color: #f5f8fa;
+  border-bottom: 2px solid #cbd6e2;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 1;
+}
+
+.firstheader * {
+  text-decoration: none;
+}
+
+/* Left firstheader */
+
+.left {
+  float: left;
+  padding: 25px 0px;
+}
+
+.language, .contact a {
+  color: #33475b;
+  font-size: 15px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.language {
+  font-family: inherit;
+  padding-left: 8px;
+}
+
+.fas .fa-angle-down {
+  font-size: 17px;
+  transform: scale(1, .7);
+  margin: 0 0 0 2;
+}
+
+.lang {
+  padding-right: 20px;
+  position: relative;
+  width: 100%;
+}
+
+.contact {
+  padding-left: 20px;
+  border-left: solid 2px #cbd6e2;
+}
+
+.listlang {
+  display: none;
+  position: absolute;
+  left: 30%;
+  background-color: #fff;
+  border: 1px solid #cbd6e2;
+  border-radius: 2px;
+  width: 100%;
+  padding: 10px 0px;
+  list-style: none;
+}
+
+.listlang a {
+  font-weight: 500;
+  color: #33475b;
+  font-size: 15px;
+}
+
+.listlang li {
+  padding: 5px 0px 5px 20px;
+}
+
+.listlang li:hover {
+  background: #e5f5f8;
+}
+
+.lang:hover .listlang {
+  display: block;
+}
+
+/* Right firstheader */
+
+.right {
+  float: right;
+  padding: 25px 0px;
+}
+
+.search i {
+  color: #00a4bd;
+  margin: 0px 20px
+}
+
+.login a {
+  color: #fe7a59;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 25px;
+  border: 1px solid #ff7a59;
+  background: white;
+  margin: 0px 5px;
+  border-radius: 5px;
+}
+
+.get a {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  border: 1px solid #ff7a59;
+  background: #fe7a59;
+  padding: 10px 10px;
+  margin: 0px 5px;
+  border-radius: 5px;
+}
+
+.login {
+  margin-right: 10px;
+}
+
+/* Second header */
+
+.secondheader {
+  margin-top: 70px;
+}
+
+nav {
+  margin-top: 70px;
+  height: 70px;
+}
+
+nav .container {
+  position: relative;
+  height: 100%;
+}
+
+nav img {
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+nav ul {
+  float: right;
+}
+
+nav li {
+  display: inline-block;
+  padding: 30px 20px;
+}
+
+nav select, nav a {
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #39475b;
+}
+
+nav select:hover, nav a:hover {
+  color: grey;
+}
+
+/* Main */
+
+/* Cover */
+
+.cover {
+  background-color: #fbe9ed;
+  position: relative;
+  background-image: url("../img/jumbotron.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  height: 694px;
+}
+
+.cover .container {
+  padding-top: 50px;
+}
+
+.titlebox {
+  width: 35%;
+  position: absolute;
+  top: 50px;
+}
+
+h1 {
+  line-height: 1.3;
+  font-size: 40px;
+}
+
+.titlebox p {
+  font-size: 15px;
+  margin-top: 20px;
+  line-height: 1.9;
+}
+
+.titleget a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  border: 1px solid #ff7a59;
+  background: #fe7a59;
+  padding: 20px 30px;
+  border-radius: 5px;
+}
+
+.titleget {
+  margin-top: 50px;
+}
+
+#get-comment {
+  font-size: 13px;
+  margin-top: 50px;
+}
+
+/* Offers */
+
+.offers {
+  background-color: #eaf4f9;
+}
+
+/* Cubo e testo */
+
+#cubo {
+  text-align: center;
+  padding-top: 45px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+#cubo img {
+  width: 20%;
+}
+
+.offers h2 {
+  font-size: 30px;
+}
+
+#cubo p {
+  margin-top: 3%;
+  line-height: 1.7;
+}
+
+/* Learn more */
+
+/* Learn and grow */
+
+.grow {
+  background-color: grey;
+  height: 650px;
+}
+
+/* Customers */
+
+.customers {
+  background-color: purple;
+  height: 200px;
+}
+
+/* Start */
+
+.start {
+  background-color: pink;
+  height: 400px;
+}
+
+/* Footer */
+
+.total {
+  height: 500px;
+  background-color: lightblue;
+}
