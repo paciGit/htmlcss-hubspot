@@ -504,6 +504,10 @@ p.divisorio {
   border-bottom: none;
 }
 
+.tab  span {
+  font-size: 25px;
+}
+
 /* Customers */
 
 .customers .container {
