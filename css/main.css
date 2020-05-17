@@ -8,7 +8,7 @@
 }
 
 .container {
-  max-width: 1100px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0px 20px;
 }
@@ -141,24 +141,19 @@
 
 /* Second header */
 
-.secondheader {
-  margin-top: 70px;
-}
-
 nav {
-  margin-top: 70px;
-  height: 70px;
+  margin-top: 60px;
+  height: 75px;
 }
 
-nav .container {
+.container nav {
   position: relative;
-  height: 100%;
 }
 
 nav img {
   position: absolute;
-  top: 50%;
-  transform: translate(0%, -50%);
+  top: 40%;
+  /* transform: translate(0%, -50%); */
 }
 
 nav ul {
@@ -172,8 +167,8 @@ nav li {
 
 nav select, nav a {
   border: none;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 17px;
+  font-weight: 400;
   text-decoration: none;
   color: #39475b;
 }
@@ -194,8 +189,6 @@ nav select:hover, nav a:hover {
   background-position: bottom right;
   background-size: contain;
   height: 694px;
-  /* height: 100%; */
-  /* width: 100%; */
 }
 
 .cover .container {
@@ -211,12 +204,14 @@ nav select:hover, nav a:hover {
 h1 {
   line-height: 1.3;
   font-size: 40px;
+  color: #525252;
 }
 
 .titlebox p {
   font-size: 15px;
   margin-top: 20px;
   line-height: 1.9;
+  font-weight: 300;
 }
 
 .titleget a {
@@ -237,12 +232,14 @@ h1 {
 #get-comment {
   font-size: 13px;
   margin-top: 50px;
+  font-weight: 300;
 }
 
 /* Offers */
 
 .offers {
   background-color: #f5f8fa;
+  padding-bottom: 2%;
 }
 
 /* Cubo e testo */
@@ -260,11 +257,13 @@ h1 {
 
 .offers h2 {
   font-size: 30px;
+  color: #525252;
 }
 
 #cubo p {
   margin-top: 3%;
   line-height: 1.7;
+  font-weight: 300;
 }
 
 /* Learn more */
@@ -317,14 +316,17 @@ h1 {
 .col h3 {
   font-size: 20px;
   margin-bottom: 3%;
+  color: #525252;
 }
 
 .col p {
   line-height: 1.5;
   font-size: 15px;
+  font-weight: 300;
 }
 
 p.divisorio {
+  color: #525252;
   font-weight: 600;
   margin: 3% 0;
   position: relative;
@@ -378,16 +380,18 @@ p.divisorio {
   text-align: center;
   margin-top: 7%;
   font-size: 25px;
+  color: #525252;
 }
 
 .popular h4 {
   text-align: center;
   margin-top: 20%;
   font-size: 18px;
+  color: #525252;
 }
 
 .popular p {
-  font-size: 15px;
+  font-size: 13px;
   margin-top: 10%;
   line-height: 1.8;
   text-align: center;
@@ -433,22 +437,167 @@ p.divisorio {
 /* Learn and grow */
 
 .grow {
-  background-color: grey;
-  height: 650px;
+  background-color: #32a798;
+  padding-bottom: 7%;
+}
+
+.grow .intro {
+  text-align: center;
+  padding: 5%;
+  color: white;
+  font-weight: 500;
+}
+
+.intro h2 {
+  font-size: 26px;
+  padding-bottom: 3%;
+}
+
+.intro p {
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.tab {
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  width: 25%;
+  text-align: center;
+  padding: 30px;
+  float: left;
+}
+
+.icons {
+  height: 40px;
+  margin-bottom: 15px;
+}
+
+.icon {
+  max-width: 150px;
+  max-height: 100%;
+  margin: auto;
+}
+
+.number {
+  position: relative;
+  padding-right: 10px;
+  margin: 0 0 5px;
+  font-size: 2.5em;
+  color: #fff;
+  display: inline-block;
+  line-height: 1em;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+
+.description {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.tab:nth-child(4n) {
+  border-right: none;
+}
+
+.tab:nth-child(n+5) {
+  border-bottom: none;
 }
 
 /* Customers */
 
-.customers {
-  background-color: purple;
-  height: 200px;
+.customers .container {
+  padding: 50px 0px;
+}
+
+.counter {
+  width: 25%;
+  padding: 0 30px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.counter h2 {
+  font-size: 40px;
+  margin: 0 0 25px;
+  color: #525252;
+}
+
+.counter p {
+  font-size: 15px;
+  margin-top: 8%;
+  line-height: 1.6;
+}
+
+p span {
+  font-weight: bold;
+  color: #525252;
+}
+
+.loghi {
+  width: 60%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10%;
+}
+
+.logo img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+.logo {
+  width: 25%;
+  height: auto;
+  float: left;
+  padding: 3%;
 }
 
 /* Start */
 
-.start {
-  background-color: pink;
-  height: 400px;
+.start .container {
+  padding-bottom: 5%;
+}
+
+.start .sx{
+  display: inline-block;
+  vertical-align: middle;
+  width: 45%;
+}
+
+.sx h2 {
+  font-size: 30px;
+  line-height: 1.2;
+  padding-bottom: 4%;
+  color: #525252;
+}
+
+.sx p {
+  margin: 20px 0px;
+  line-height: 1.5;
+}
+
+.sx .buttom {
+  margin: 40px 0px;
+  text-align: left;
+}
+
+.buttomtext {
+  font-size: 12px;
+  color: #33475b;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.dx {
+  display: inline-block;
+  text-align: right;
+  vertical-align: middle;
+  width: 54%;
+}
+
+.dx img {
+  width: 60%;
 }
 
 /* Footer */
