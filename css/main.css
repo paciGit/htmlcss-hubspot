@@ -690,3 +690,40 @@ p span {
 .center a:hover {
   color: #72a1d0;
 }
+
+/* Footer Lower */
+
+.lower {
+  padding: 2% 0;
+  margin-bottom: 5%;
+}
+
+.lower p {
+  font-size: 15px;
+  color: #ececec;
+}
+
+#copyright {
+  float: left;
+}
+
+#legal {
+  float: right;
+  font-weight: 500;
+  padding: 8%;
+  color: #cbd6e2;
+}
+
+#legal {
+  padding: 1% 5% 8% 0;
+}
+
+#legal a {
+  text-decoration: none;
+  color: #cbd6e2;
+  padding: 10px;
+}
+
+#legal a:hover {
+  color: #72a1d0;
+}
