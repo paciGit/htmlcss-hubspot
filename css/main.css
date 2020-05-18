@@ -187,7 +187,7 @@ nav select:hover, nav a:hover {
   background-image: url("../img/jumbotron.png");
   background-repeat: no-repeat;
   background-position: bottom right;
-  background-size: contain;
+  background-size: cover;
   height: 694px;
 }
 
@@ -606,7 +606,87 @@ p span {
 
 /* Footer */
 
+/* Foot Higher */
+
 .total {
-  height: 500px;
-  background-color: lightblue;
+  background-color: #33475b;
+}
+
+.footerlist {
+  float: left;
+  width: 24%;
+  margin: 5% 1% 20% 0;
+  padding-right: 0.5%;
+}
+
+.footerlist h5 {
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 1.8;
+  color: white;
+}
+
+.footerlist ul {
+  list-style: none;
+}
+
+.footerlist li {
+  padding: 5% 0;
+}
+
+.footerlist a {
+  text-decoration: none;
+  color: #cbd6e2;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.footerlist a:hover {
+  color: #72a1d0;
+}
+
+#whitebuttom a {
+  text-align: center;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #33475b;
+  padding: 5% 5%;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#whitebuttom {
+  margin-top: 10%;
+}
+
+.social i {
+  padding: 13% 4%;
+  color: #cbd6e2;
+}
+
+.social i:hover {
+  color: #72a1d0;
+}
+
+/* Foot Center */
+
+.center {
+  text-align: center;
+  padding-bottom: 5%;
+  border-bottom: solid 1px #cbd6e2;
+}
+
+.center span {
+  display: inline-block;
+  padding-right: 3%;
+}
+
+.center a {
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.center a:hover {
+  color: #72a1d0;
 }
